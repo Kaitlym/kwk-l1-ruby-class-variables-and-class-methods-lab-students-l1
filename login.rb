@@ -20,3 +20,4 @@ class User
     @age = age
   end
 end
+kaitlyn=User.new("kaitlyn", "password", "kaitlyn@gmail.com", "13")
