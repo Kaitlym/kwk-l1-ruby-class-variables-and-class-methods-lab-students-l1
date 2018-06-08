@@ -12,9 +12,9 @@
 # puts jessica.name
 
 class User
-  attr_accessor :username, :password, :email, :age
-  def initialize(username, password, email, age)
-    @username = username
+  attr_accessor :name, :password, :email, :age
+  def initialize(name, password, email, age)
+    @name = name
     @password = password
     @email = email
     @age = age
