@@ -13,15 +13,15 @@
 
 class User
   attr_accessor :name, :password, :email, :age
-  def initialize(username, password, email, age)
-    @username = username
+  def initialize(us, password, email, age)
+    @username = us
     @password = password
     @email = email
     @age = age
   end
 end
 kaitlyn=User.new("kaitlyn", "password", "kaitlyn@gmail.com", "13")
-puts kaitlyn.username
+puts kaitlyn.us
 puts kaitlyn.password
 puts kaitlyn.email
 puts kaitlyn.age
