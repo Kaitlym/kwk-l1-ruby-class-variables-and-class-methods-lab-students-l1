@@ -14,7 +14,7 @@
 class User
   attr_accessor :name, :password, :email, :age
   def initialize(username, password, email, age)
-    @username= username
+    @username = username
     @password = password
     @email = email
     @age = age
