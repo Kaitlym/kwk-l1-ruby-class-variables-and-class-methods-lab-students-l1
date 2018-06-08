@@ -21,7 +21,7 @@ class User
   end
 end
 kaitlyn=User.new("kaitlyn", "password", "kaitlyn@gmail.com", "13")
-puts kaitlyn.us
+puts kaitlyn.name
 puts kaitlyn.password
 puts kaitlyn.email
 puts kaitlyn.age
